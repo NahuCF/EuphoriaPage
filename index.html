@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Euphoria</title>
+</head>
+<style>
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma,Arial,sans-serif;
+  }
+  body {
+    background-color:#303030;
+  }
+  .wrap {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    box-shadow: -1px 13px 40px -24px rgba(0,0,0,0.75);
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 40px;
+  }
+  .chapter-container-master {
+    min-width: 270px;
+    max-width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .chapter-container-child {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-height: 620px;
+    min-width: 270px;
+    max-width: 780px;
+  }
+  .chapter-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;  
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #424242;
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,.2),0 3px 4px 0 rgba(0,0,0,.14),0 1px 8px 0 rgba(0,0,0,.12);
+  }
+  .chapter-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+  }
+  .chapter {
+    color: white;
+  }
+</style>
+<body>
+  <div class="wrap">
+    <header></header>
+    <div class="main">
+      <div class="left">
+        <img src="./hentais/euphoria/euphoria.jpg" alt="">
+        <div>Vistas</div>
+      </div>
+      <div class="chapter-container-master">
+        <div class="chapter-container-child">
+          <a class="chapter-container" href="">
+            <img src="./hentais/euphoria/chapter1-img.png" alt="">
+            <div class="chapter-container2">
+              <div class="chapter">Chapter 1</div>
+            </div>
+          </a>
+          <a class="chapter-container" href="">
+            <img src="./hentais/euphoria/chapter2-img.png" alt="">
+            <div class="chapter-container2">
+              <div class="chapter">Chapter 2</div>
+            </div>
+          </a>
+          <a class="chapter-container" href="">
+            <img src="./hentais/euphoria/chapter2-img.png" alt="">
+            <div class="chapter-container2">
+              <div class="chapter">Chapter 3</div>
+            </div>
+          </a>
+          <a class="chapter-container" href="">
+            <img src="./hentais/euphoria/chapter2-img.png" alt="">
+            <div class="chapter-container2">
+              <div class="chapter">Chapter 4</div>
+            </div>
+          </a>
+          <a class="chapter-container" href="">
+            <img src="./hentais/euphoria/chapter2-img.png" alt="">
+            <div class="chapter-container2">
+              <div class="chapter">Chapter 5</div>
+            </div>
+          </a>
+          <a class="chapter-container" href="">
+            <img src="./hentais/euphoria/chapter2-img.png" alt="">
+            <div class="chapter-container2">
+              <div class="chapter">Chapter 6</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
